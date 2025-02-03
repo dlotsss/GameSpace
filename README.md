@@ -1,5 +1,4 @@
 <h1> GameSpace - a game to change the future </h1>
-<br> 
 I made this game at a national GameDev hackathon. Although I did not win, I received a lot of experience and understood that I am able to make projects by my own. 
 
 GameSpace is a labyrinth game, where main hero (austronaut) should go through space trash and not to be killed by aliens. The tecnique of the game is similar to wide-known PacMan, but the idea beneath this game is deeper. By playing this game people start to think about all the garbage up there in space which raises awareness about the issue. 
