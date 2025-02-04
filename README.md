@@ -3,6 +3,11 @@
 ## Description
 GameSpace is a 2D arcade-style game built using Python and Pygame. Players control a hero character navigating through obstacles, avoiding enemies, and collecting extra lives to reach the level goal.
 
+## Game Objective & Storyline
+GameSpace was created during a **national 2-day GameDev hackathon**, where I participated solo. Although I did not win, it was a great learning experience. Due to my solo participation, there might be some minor bugs in the game.
+
+The game is designed as a **labyrinth through space trash**, aiming to raise awareness about the real-world issue of space debris. Players must carefully navigate the space environment, avoiding obstacles and enemies, while collecting resources to survive.
+
 ## Why Pygame?
 Pygame was chosen for this project because it is:
 - Lightweight and beginner-friendly for 2D game development.
