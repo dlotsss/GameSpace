@@ -1,9 +1,70 @@
-<h1> GameSpace - a game to change the future </h1>
-I made this game at a national GameDev hackathon. Although I did not win, I received a lot of experience and understood that I am able to make projects on my own. 
+# GameSpace
 
-GameSpace is a labyrinth game, where main hero (austronaut) should go through space trash and not to be killed by aliens. The tecnique of the game is similar to wide-known PacMan, but the idea beneath this game is deeper. By playing this game people start to think about all the garbage up there in space which raises awareness about the issue. 
+## Description
+GameSpace is a 2D arcade-style game built using Python and Pygame. Players control a hero character navigating through obstacles, avoiding enemies, and collecting extra lives to reach the level goal.
 
-In this project I worked individually and I was responsible for the main idea of the game, its design, design of characters, animation, sound effects. Although I had only 2 days, I managed to program a working game. Sure, there are lots of different setbacks that need careful consideration and code refinement, however the main functions work properly. 
+## Features
+- Player movement in four directions
+- Enemy movement with randomized directions
+- Shooting mechanics for eliminating enemies
+- Collision detection with barriers and enemies
+- Extra life pickup system
+- Background music and sound effects
+- Level completion and game-over screens
 
+## Installation
+### Requirements
+Ensure you have Python installed on your system. You can download Python from [python.org](https://www.python.org/downloads/).
 
-To build the game I used pygame, a module of python, which enables to create 2D mini-games using python. I chose this module because by that time I knew it the best. 
+### Install Dependencies
+Before running the game, install the required dependencies:
+```sh
+pip install pygame
+```
+
+## Running the Game
+To start the game, navigate to the directory where `main.py` is located and run:
+```sh
+python main.py
+```
+
+## Controls
+- **Arrow Keys**: Move the player character
+- **Spacebar**: Shoot bullets
+- **ESC**: Quit the game
+
+## File Structure
+```
+GameSpace/
+│── main.py                # Main game script
+│── sounds/                # Sound effects and music
+│   │── music.wav          # Background music
+│   │── button.mp3         # Shooting sound
+│── images/                # Image assets
+│   │── backgrounds/       # Background images
+│   │── rightwalking/      # Right movement sprites
+│   │── leftwalking/       # Left movement sprites
+│   │── enemies/          # Enemy sprites
+│   │── barriers/         # Obstacle sprites
+│   │── bullet.png        # Bullet image
+│── README.md              # This file
+```
+
+## Game Mechanics
+- The player moves using the arrow keys and can shoot using the spacebar.
+- Enemies move in random directions.
+- Bullets collide with enemies and barriers.
+- The player must reach the end-of-level trophy to win.
+- If the player loses all lives, the game ends with a loss screen.
+
+## Future Improvements
+- Adding multiple levels with increasing difficulty.
+- Enhancing AI for enemy movement.
+- Adding more power-ups and weapons.
+
+## License
+This game is open-source and free to use for learning and personal projects.
+
+## Credits
+Developed using Python and Pygame.
+
