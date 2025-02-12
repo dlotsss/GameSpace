@@ -147,6 +147,8 @@ class Bullet(GameSprite):
             self.kill()
 ```
 
+
+
 ## Game Mechanics
 - The player moves using the arrow keys and can shoot using the spacebar.
 - Enemies move in random directions.
