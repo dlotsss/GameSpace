@@ -148,7 +148,7 @@ class Bullet(GameSprite):
 ```
 
 ![GameSpace Demo](images/demoSpace.gif)
-the preview of the game
+The preview of the game
 
 ## Game Mechanics
 - The player moves using the arrow keys and can shoot using the spacebar.
